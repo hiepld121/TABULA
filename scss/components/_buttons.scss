@@ -1,0 +1,15 @@
+.btnPhone{
+    background-color: #b61984;
+    border-radius: 25px;
+    color: white;
+    padding: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+
+    &:hover{
+        background-color: white;
+        color:#b61984;
+        box-shadow: 0 0 0 1px #b61984 inset;
+    }
+}

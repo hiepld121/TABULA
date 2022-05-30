@@ -1,0 +1,51 @@
+#footer{
+    background-image: url(../../images/footer_background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    .subcribe{
+        background-color: white;
+        color:#b61984 ;
+        transition: all 0.5s;
+        width: 50%;
+        text-align: center;
+        font-weight: bold;
+        &:hover{
+
+            background-color: #b61984;
+            color: white;
+            box-shadow: 0 0 0 1px #fff inset;
+            
+        }
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        transition: all 0.5s;
+        &:hover{
+            color: grey;
+        }
+    }
+
+    .foot{
+        padding-bottom: 310px;
+        padding-top: 40px;
+    }
+
+    i{
+        padding-right: 10px;
+        margin-bottom: 15px;
+        text-decoration: none;
+    }
+
+    h4{
+        margin-bottom: 25px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+   
+}

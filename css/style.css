@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #656774;
+  background-color: white;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #1d365e;
+  letter-spacing: 0.015rem;
+}
+
+.btnPhone {
+  background-color: #b61984;
+  border-radius: 25px;
+  color: white;
+  padding: 15px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.btnPhone:hover {
+  background-color: white;
+  color: #b61984;
+  -webkit-box-shadow: 0 0 0 1px #b61984 inset;
+          box-shadow: 0 0 0 1px #b61984 inset;
+}
+
+body {
+  background-image: url(../../images/yellow_top_wave_01.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#TBLNav {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  position: relative;
+  left: 50px;
+}
+
+#TBLNav .nav-item {
+  position: relative;
+}
+
+#TBLNav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #121212;
+  padding: 25px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#TBLNav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 45px;
+  border-radius: 50%;
+  width: 100%;
+  height: 8px;
+  width: 8px;
+  display: block;
+  background-color: #b61984;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  pointer-events: none;
+  margin-top: 10px;
+}
+
+#TBLNav .nav-link:hover {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #b61984;
+}
+
+#TBLNav .nav-link:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+#TBLNav .active .nav-link {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #121212;
+}
+
+#TBLNav .active .nav-link::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+#TBLNav .active .nav-link:hover {
+  color: #b61984;
+}
+
+#TBLNav .topMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#TBLNav .topMenu a {
+  margin-left: 15px;
+  margin-right: 13px;
+  line-height: inherit;
+  display: inline-block;
+  font-size: 1.25em;
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+#TBLNav .topMenu a:hover {
+  color: #b61984;
+}
+
+#TBLNav .topMenu a i {
+  position: absolute;
+  top: 16px;
+}
+
+#carousel h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  color: #b61984;
+  font-weight: bold;
+  font-family: "Montserrat",Arial,Helvetica,sans-serif;
+  line-height: 1.2;
+}
+
+#carousel h1 {
+  font-size: 4.5rem;
+  color: black;
+  font-weight: bold;
+  font-family: "Montserrat",Arial,Helvetica,sans-serif;
+}
+
+#carousel img {
+  display: block;
+  margin: 0;
+  line-height: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+#carousel .carousel_left {
+  margin-top: 95px;
+}
+
+.cardPhone {
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+.cardPhone .card-body {
+  text-align: center;
+}
+
+.cardPhone .card-body h4 {
+  color: #b61984;
+  font-size: .75rem;
+  margin-bottom: 0.7em;
+  font-weight: bold;
+}
+
+.cardPhone .card-body h3 {
+  font-weight: bold;
+  color: black;
+}
+
+#ogiua {
+  margin-top: 70px;
+  background-image: url(../../images/accent_bottom_wave_01.png);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+}
+
+#hinhsong {
+  background-image: url(../../images/Violet_top_left_wave.png);
+  height: 50px;
+  width: 100%;
+}
+
+.findCourse {
+  background-color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 30px 30px -10px black;
+          box-shadow: 0 30px 30px -10px black;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.findCourse h1 {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.findCourse .form-group {
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.findCourse .fg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.findCourse #language {
+  border-radius: 25px;
+}
+
+.findCourse .btnFC {
+  margin-top: 25px;
+}
+
+.findCourse .btnFC span {
+  padding: 20px 45px;
+  font-weight: bold;
+}
+
+.products {
+  background-color: #dcd1f3;
+}
+
+.products .img-fluid img {
+  width: 100%;
+}
+
+.cardPhone {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.cardPhone:hover {
+  -webkit-box-shadow: 0 30px 30px -10px grey;
+          box-shadow: 0 30px 30px -10px grey;
+}
+
+#footer {
+  background-image: url(../../images/footer_background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#footer .subcribe {
+  background-color: white;
+  color: #b61984;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+
+#footer .subcribe:hover {
+  background-color: #b61984;
+  color: white;
+  -webkit-box-shadow: 0 0 0 1px #fff inset;
+          box-shadow: 0 0 0 1px #fff inset;
+}
+
+#footer a {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#footer a:hover {
+  color: grey;
+}
+
+#footer .foot {
+  padding-bottom: 310px;
+  padding-top: 40px;
+}
+
+#footer i {
+  padding-right: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+#footer h4 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */

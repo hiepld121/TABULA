@@ -1,0 +1,107 @@
+#carousel{
+  
+    
+    h3{
+        font-size: 1.5rem;
+        margin-bottom: 0.5em;
+        color: #b61984;
+        font-weight: bold;
+        font-family: "Montserrat",Arial,Helvetica,sans-serif;
+        line-height: 1.2;
+        
+    }
+
+    h1{
+        font-size: 4.5rem;
+        color: black;
+        font-weight: bold;
+        font-family: "Montserrat",Arial,Helvetica,sans-serif;
+    }
+
+    img{
+        display: block;
+    margin: 0;
+    line-height: 0;
+    max-width: 100%;
+    height: auto;
+    }
+
+    .carousel_left{
+        margin-top: 95px;
+    }
+}
+
+.cardPhone{
+    margin-top: 40px;
+    border-radius: 15px;
+
+    .card-body{
+        text-align: center;
+        h4{
+            color: #b61984;
+            font-size: .75rem;
+            margin-bottom: 0.7em;
+            font-weight: bold;
+        }
+
+        h3{
+            font-weight: bold;
+            color: black;
+        }
+    }
+}
+
+#ogiua{
+    margin-top: 70px ;
+    background-image: url(../../images/accent_bottom_wave_01.png);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+    
+}
+
+#hinhsong{
+    background-image: url(../../images/Violet_top_left_wave.png);
+    height: 50px;
+    width: 100%;
+}
+
+.findCourse{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 30px 30px -10px black;
+    text-align: center;
+    padding-top: 15px;
+
+    h1{
+        color: black;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+
+    .form-group{
+        border-radius: 25px;
+        padding: 10px;
+    }
+
+    .fg{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #language{
+        border-radius: 25px;
+    }
+
+    .btnFC{
+        margin-top: 25px;
+        span{
+            padding: 20px 45px;
+            font-weight: bold;
+        }
+    }
+
+}
+
+
