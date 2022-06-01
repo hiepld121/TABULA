@@ -32,8 +32,8 @@ function renderListProduct(data){
                   <div class="card cardPhone">
                       <img src="./images/${product.hinhAnh}" class="card-img-top" alt="...">
                       <div class="card-body">
-                          <h4>${product.tenSP}</h4>
-                          <h3>${product.gia}</h3>
+                          <h4>${product.ngonNgu}</h4>
+                          <h3>${product.hoTen}</h3>
                           <span>${product.moTa}</span>
                       </div>
                   </div>
